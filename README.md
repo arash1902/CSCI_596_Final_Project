@@ -20,8 +20,8 @@ Large number of inputs &#8594; Exponential growth of combinations</li>
 </ul>
 
 
-## 2. Espresso
-Logic minimization is the process of finding a functionally-equivalent representation of a given logic circuit with the goal of reducing area, delay, and/or power consumption.
+## 2. ESPRESSO
+Logic minimization is the process of finding a functionally-equivalent representation of a given logic circuit with the goal of reducing area, delay, and/or power consumption. ESPRESSO-II, which was developed in 1982 <sup>1</sup>, is the most popular two-level logic minimization algorithm.
 
 
 ## 3. GPU-ESPRESSO
@@ -33,13 +33,10 @@ We will explore which loops can be parallelized on GPUs, the benefits of paralle
 
 
 ## 5. Installation (current version)
-`chmod +x configure
-
+```chmod +x configure
 /bin/bash ./configure
-
 make
-
-sudo make install`
+sudo make install```
 
 
 ## 6. Run (current version)
@@ -50,6 +47,9 @@ sudo make install`
 ## 7. Acknowledgements
 
 This distribution is just a reworked version of the c. 1989 Berkeley espresso source code. All kudos to the original authors.
+
+## 8. Sources
+1. R. K. Brayton, G. D. Hachtel, C. T. McMullen, and A. L. Sangiovanni-Vincentelli,Logic Minimization Algorithms for VLSI Synthesis, ser. TheKluwer International Series in Engineering and Computer Science. Springer,1984, vol. 2. [Online]. Available: https://doi.org/10.1007/978-1-4613-2821-6
 
 
 
