@@ -34,8 +34,11 @@ We will explore which loops can be parallelized on GPUs, the benefits of paralle
 
 ## 5. Installation (current version)
 `chmod +x configure
+
 /bin/bash ./configure
+
 make
+
 sudo make install`
 
 
