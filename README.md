@@ -6,7 +6,7 @@
 | 4014212838 |  fayyazi@usc.edu |Arash Fayyazi|
 
 
-## 1. Motivation - NullaNet
+## 1. Motivation - NullaNet <sup>1</sup>
 <img src="Images/nullanet.png" style="width:200; height:200;" />
 
 <ul>
@@ -21,7 +21,7 @@ Large number of inputs &#8594; Exponential growth of combinations</li>
 
 
 ## 2. ESPRESSO
-Logic minimization is the process of finding a functionally-equivalent representation of a given logic circuit with the goal of reducing area, delay, and/or power consumption. ESPRESSO-II, which was developed in 1982 <sup>1</sup>, is the most popular two-level logic minimization algorithm.
+Logic minimization is the process of finding a functionally-equivalent representation of a given logic circuit with the goal of reducing area, delay, and/or power consumption. ESPRESSO-II, which was developed in 1982 <sup>2</sup>, is the most popular two-level logic minimization algorithm.
 
 
 ## 3. GPU-ESPRESSO
@@ -52,7 +52,8 @@ $ espresso -t <pla_file>
 This distribution is just a reworked version of the c. 1989 Berkeley espresso source code. All kudos to the original authors.
 
 ## 8. Sources
-1. R. K. Brayton, G. D. Hachtel, C. T. McMullen, and A. L. Sangiovanni-Vincentelli,Logic Minimization Algorithms for VLSI Synthesis, ser. TheKluwer International Series in Engineering and Computer Science. Springer,1984, vol. 2. [Online]. Available: https://doi.org/10.1007/978-1-4613-2821-6
+1. Mahdi Nazemi, Ghasem Pasandi, and Massoud Pedram. 2019. Energy-efficient, low-latency realization of neural networks through boolean logic minimization. In Proceedings of the 24th Asia and South Pacific Design Automation Conference (ASPDAC '19). Association for Computing Machinery, New York, NY, USA, 274–279. DOI:https://doi.org/10.1145/3287624.3287722
+2. R. K. Brayton, G. D. Hachtel, C. T. McMullen, and A. L. Sangiovanni-Vincentelli,Logic Minimization Algorithms for VLSI Synthesis, ser. TheKluwer International Series in Engineering and Computer Science. Springer,1984, vol. 2. [Online]. Available: https://doi.org/10.1007/978-1-4613-2821-6
 
 
 
