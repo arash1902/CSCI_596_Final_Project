@@ -13,7 +13,7 @@
 <li><b>Low-latency inference</b><br>
 Inference without reading parameters off memory &#8594; More efficient hardware implementation</li>
 
-<li><b>Issues (scalability)</b><br>
+<li><b>Scalability issues</b><br>
 Different architectures for each neuron &#8594; Use truth table as a unique signature or constrain parameters during training
 
 Large number of inputs &#8594; Exponential growth of combinations</li>
@@ -42,8 +42,9 @@ $ sudo make install
 
 
 ## 6. Run (current version)
-
-`espresso -t <pla_file>`
+```
+$ espresso -t <pla_file>
+```
 
 
 ## 7. Acknowledgements
